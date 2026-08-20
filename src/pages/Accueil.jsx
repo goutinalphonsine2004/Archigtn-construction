@@ -180,7 +180,7 @@ const projectfiltre = projets.filter((projet) => filtreActive ==="Tous" || proje
             ARCHITECTURE · CONCEPTION · CONSTRUCTION — BÉNIN
           </div>
 
-          <h1 className="text-4xl md:text-6xl font-extrabold mb-6 max-w-3xl">
+          <h1 className="text-3xl md:text-6xl font-extrabold mb-6 max-w-3xl">
             Concevez. Construisez.
             <br />
             <span className="text-orange-500">Réalisez vos rêves.</span>
@@ -237,9 +237,9 @@ const projectfiltre = projets.filter((projet) => filtreActive ==="Tous" || proje
                      À PROPOS
                 </div>
 
-                <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Votre partenaire pour des constructions pensées pour durer</h2>
+                <h2 className="text-2xl md:text-4xl font-extrabold mb-6">Votre partenaire pour des constructions pensées pour durer</h2>
 
-                <p className="text-gray-600 mb-8">
+                <p className="text-gray-600 mb-8 text-sm md:text-lg">
                       Archigtnconstruction accompagne ses clients dans leurs projets de
                       construction, depuis la conception des plans jusqu'à la réalisation des travaux.
                       Notre objectif est de proposer des solutions modernes, adaptées aux besoins de
@@ -409,8 +409,8 @@ const projectfiltre = projets.filter((projet) => filtreActive ==="Tous" || proje
                       <div className="max-w-7xl m-auto">
                           <div className="grid grid-cols-1 md:grid-cols-2 space-x-40 space-y-20">
                               <div className="space-y-3">
-                                  <h3 className="text-3xl md:text-4xl font-extrabold">Vous avez un projet <br /> de construction ?</h3>
-                                  <p className="text-gray-400">Parlons de votre projet et construisons ensemble une solution adaptée à vos besoins.</p>
+                                  <h3 className="text-2xl md:text-4xl font-extrabold">Vous avez un projet <br /> de construction ?</h3>
+                                  <p className="text-gray-400 text-sm">Parlons de votre projet et construisons ensemble une solution adaptée à vos besoins.</p>
                               </div>
 
                               <div className="flex items-center gap-3">

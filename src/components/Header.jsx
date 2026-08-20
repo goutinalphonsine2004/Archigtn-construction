@@ -25,7 +25,7 @@ function Header(){
 
                 {/* Menu normal, caché sur mobile/tablette */}
 
-                <nav className="hidden lg:flex gap-8 font-medium ">
+                <nav className="hidden md:hidden lg:flex gap-8 font-medium ">
                     <Link to="/" className="text-gray-700 hover:text-orange-500">Accueil</Link>
                     <Link to="/a-propos" className="text-gray-700 hover:text-orange-500">À propos</Link>
                     <Link to="/service" className="text-gray-700 hover:text-orange-500">Service</Link>

@@ -61,7 +61,7 @@ function Propos(){
                     <span className="w-8 h-px bg-orange-500"></span>
                     À propos
                 </div>
-                <h2 className="text-4xl md:text-5xl font-extrabold mb-6">Votre partenaire pour <br /> des constructions <br />pensées pour durer</h2>
+                <h2 className="text-3xl md:text-5xl font-extrabold mb-6">Votre partenaire pour <br /> des constructions <br />pensées pour durer</h2>
                 <p className="flex flex-wrap text-gray-400">Pour la réalisation de vos concepts modernes et l'accomplissement de vos rêves en construction</p>
 
          </div>
@@ -75,7 +75,8 @@ function Propos(){
                   
                   <div>
                         <p className="text-gray-800 text-lg mb-6">Archigtnconstruction accompagne ses clients dans leurs projets de construction, depuis la conception des plans jusqu'à la réalisation des travaux. Notre objectif est de proposer des solutions modernes, adaptées aux besoins de chaque client et aux exigences de son projet.</p>
-                        <p className="text-gray-600 text-lg mb-12">Basée au Bénin, la structure est spécialisée dans la conception et la construction de maisons et d'autres types de bâtiments, depuis l'implantation du projet jusqu'à la remise des clés : plans architecturaux modernes, plans structuraux en BTP, surveillance et contrôle des travaux, réalisation et réfection de travaux, conseils dans le domaine du bâtiment, ainsi que la construction de bâtiments à toiture-terrasse (dalle) ou à toiture légère.</p>
+                        <p className="text-gray-600 text-sm
+                         mb-12">Basée au Bénin, la structure est spécialisée dans la conception et la construction de maisons et d'autres types de bâtiments, depuis l'implantation du projet jusqu'à la remise des clés : plans architecturaux modernes, plans structuraux en BTP, surveillance et contrôle des travaux, réalisation et réfection de travaux, conseils dans le domaine du bâtiment, ainsi que la construction de bâtiments à toiture-terrasse (dalle) ou à toiture légère.</p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                             {propos.map((propo) => (
@@ -119,13 +120,22 @@ function Propos(){
                       <div className="max-w-7xl m-auto">
                           <div className="grid grid-cols-1 md:grid-cols-2 space-x-40 space-y-20">
                               <div className="space-y-3">
-                                  <h3 className="text-3xl md:text-4xl font-extrabold">Vous avez un projet <br /> de construction ?</h3>
-                                  <p className="text-gray-400">Parlons de votre projet et construisons ensemble une solution adaptée à vos besoins.</p>
+                                  <h3 className="text-2xl md:text-4xl font-extrabold">Vous avez un projet <br /> de construction ?</h3>
+                                  <p className="text-gray-400 text-sm">Parlons de votre projet et construisons ensemble une solution adaptée à vos besoins.</p>
                               </div>
 
-                              <div className="flex items-center gap-3">
-                                  <button className="bg-orange-500 text-white px-4 py-2 rounded-xl">Demander un devis</button>
-                                  <button className="outline outline-gray-400 text-white px-4 py-2 rounded-xl">Demander un devis</button>
+                             <div className="flex items-center gap-3">
+                                  <button className="bg-orange-500 text-white px-4 py-2 rounded-xl"><a href="/devis">Demander un devis </a></button>
+                                  <button className="outline outline-gray-400 text-white px-4 py-2 rounded-xl">
+                                    <a 
+                                        href="https://wa.me/22967034944"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="hover:text-orange-500"
+                                    >
+                                        💬 WhatsApp
+                                    </a> 
+                                    </button>
                               </div>
                           </div>
                       </div>
