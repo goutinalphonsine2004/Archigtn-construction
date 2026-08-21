@@ -8,7 +8,7 @@ function Header(){
     const [menuOuvert, setMenuOuvert] = useState(false)
 
     return(
-       <header className="bg-white border-b sticky top-0 z-50">
+      <header className="bg-white border-b sticky top-0 z-50 overflow-x-hidden">
             <div className="max-w-7xl m-auto flex items-center justify-between px-6 py-7">
 
                 <div className="flex items-center gap-3">
