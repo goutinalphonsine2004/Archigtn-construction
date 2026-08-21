@@ -54,19 +54,17 @@ function Header(){
                       {menuOuvert ? "✕" : "☰"}
                     </button>
                 </div>
-
-                
-
-                {/* Menu déroulant mobile */}
+            </div>
+            {/* Menu déroulant mobile */}
 
                 {menuOuvert && (
                     <nav className="lg:hidden">
-                        <Link to="/" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500">Accueil</Link>
-                        <Link to="/a-propos" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500">À propos</Link>
-                        <Link to="/service" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500">Service</Link>
-                        <Link to="/realisation" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500">Réalisation</Link>
-                        <Link to="/pourquoi-nous" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500">Pourquoi nous ?</Link>
-                        <Link to="/contact" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500">Contact</Link> 
+                        <Link to="/" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500 hover: bg-gray-300">Accueil</Link>
+                        <Link to="/a-propos" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500 hover: bg-gray-300">À propos</Link>
+                        <Link to="/service" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500 hover: bg-gray-300">Service</Link>
+                        <Link to="/realisation" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500 hover: bg-gray-300">Réalisation</Link>
+                        <Link to="/pourquoi-nous" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500 hover: bg-gray-300">Pourquoi nous ?</Link>
+                        <Link to="/contact" onClick={() => setMenuOuvert(false)}  className="block px-6 py-4 text-gray-700  font-medium hover:text-orange-500 hover: bg-gray-300">Contact</Link> 
                         <div className="p-6">
                             <Link
                             to="/devis"
@@ -78,8 +76,6 @@ function Header(){
                         </div>
                     </nav>
                 )}
-
-            </div>
 
         </header>
     )
